@@ -21,7 +21,7 @@ The current implementation uses the legacy Google Mobile Ads dependency `com.goo
 
 ## Release notes
 
-### 1.0.0
+### 2.1.0
 
 - Updated Google Play services Ads SDK to 24.4.0.
 - Updated Google UMP SDK to 3.2.0 for GDPR consent handling.
@@ -74,17 +74,17 @@ Add the SDK to your app module's `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'com.github.ykdevtools:admob-ads-sdk:1.0.0'
+    implementation 'com.github.Mersi-LLC:admob-ads-sdk-1:2.1.0'
 }
 ```
 
-Use a fixed release version such as `1.0.0`. Dynamic versions such as `1.+` are not recommended because a future release could change the resolved dependency without changing your application code.
+Use a fixed release version such as `2.1.0`. Dynamic versions such as `2.+` are not recommended because a future release could change the resolved dependency without changing your application code.
 
 The JitPack dependency becomes available only after:
 
-1. The project is pushed to the `ykdevtools/admob-ads-sdk` GitHub repository.
+1. The project is pushed to the `Mersi-LLC/admob-ads-sdk-1` GitHub repository.
 2. Maven publishing is configured for the Android library.
-3. A Git tag such as `1.0.0` is created and pushed.
+3. A Git tag such as `2.1.0` is created and pushed.
 4. JitPack successfully builds that tag.
 
 ### Module dependency
