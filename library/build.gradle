@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.solodroid.ads.sdk'
+    namespace 'com.ykdevtoolsx.ads'
     compileSdk 34
     defaultConfig {
         minSdk 23

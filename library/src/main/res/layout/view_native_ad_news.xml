@@ -12,14 +12,14 @@
         android:orientation="vertical"
         android:visibility="gone">
 
-        <com.solodroid.ads.sdk.util.TemplateView
+        <com.ykdevtoolsx.ads.util.TemplateView
             android:id="@+id/admob_native_ad_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="gone"
             app:gnt_template_type="@layout/gnt_admob_news_template_view" />
 
-        <com.solodroid.ads.sdk.util.AdManagerTemplateView
+        <com.ykdevtoolsx.ads.util.AdManagerTemplateView
             android:id="@+id/google_ad_manager_native_ad_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

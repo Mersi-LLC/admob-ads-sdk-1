@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-    namespace 'com.solodroid.ads.sdkdemo'
+    namespace 'com.ykdevtools.ads.sdkdemo'
     compileSdk 34
     defaultConfig {
-        applicationId "com.solodroid.ads.sdkdemo"
+        applicationId "com.ykdevtools.ads.sdkdemo"
         minSdk 23
         targetSdk 34
         versionCode 1
