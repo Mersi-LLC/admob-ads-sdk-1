@@ -19,6 +19,15 @@ The repository contains two modules:
 
 The current implementation uses the legacy Google Mobile Ads dependency `com.google.android.gms:play-services-ads:24.4.0`. It does not use the GMA Next-Gen SDK.
 
+## Release notes
+
+### 1.0.0
+
+- Updated Google Play services Ads SDK to 24.4.0.
+- Updated Google UMP SDK to 3.2.0 for GDPR consent handling.
+- Updated the minimum Android SDK level to API 23.
+- Updated the project for current Android Studio compatibility.
+
 ## Requirements
 
 - Android minSdk 23+
