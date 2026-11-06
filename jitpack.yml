@@ -1,0 +1,5 @@
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew :library:publishReleasePublicationToMavenLocal --no-daemon --no-configuration-cache

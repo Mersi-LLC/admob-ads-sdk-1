@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
@@ -25,8 +26,24 @@ android {
     buildFeatures {
         buildConfig = true
     }
+    publishing {
+        singleVariant('release')
+    }
     lintOptions {
         disable 'GradleDependency'
+    }
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.Mersi-LLC'
+                artifactId = 'admob-ads-sdk-1'
+                version = System.getenv('VERSION') ?: '2.1.0'
+            }
+        }
     }
 }
 
